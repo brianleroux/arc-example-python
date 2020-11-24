@@ -1,7 +1,7 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
   "Transform": "AWS::Serverless-2016-10-31",
-  "Description": "Exported by architect/package@5.0.0 on 2020-11-24T03:10:28.121Z",
+  "Description": "Exported by architect/package@5.0.0 on 2020-11-24T03:49:22.739Z",
   "Resources": {
     "HTTP": {
       "Type": "AWS::Serverless::HttpApi",
@@ -57,7 +57,7 @@
       "Type": "AWS::Serverless::Function",
       "Properties": {
         "Handler": "index.handler",
-        "CodeUri": "/Users/brianleroux/myapp/src/http/get-index",
+        "CodeUri": "/Users/brianleroux/myapp/fun",
         "Runtime": "python3.8",
         "MemorySize": 1152,
         "Timeout": 5,
