@@ -8,6 +8,9 @@
   },
   "arc": {
     "app": "app-ns",
+    "aws": {
+      "runtime": "python3.8"
+    },
     "http": {
       "/": {
         "method": "get",
